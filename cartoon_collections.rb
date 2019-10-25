@@ -32,9 +32,9 @@ snacks = ["crackers", "gouda", "thyme"]
 def find_the_cheese(snacks)
   cheeses = ["gouda", "cheddar", "camembert"]
 
-  snacks.find do |maybe_cheese|
-    cheeses.include?(maybe_cheese)
+  snacks.find do |cheese|
+    cheeses.include?(cheese)
   end
 end
 
-find_the_cheese(potentially_cheesy_items)
+find_the_cheese(snacks)
