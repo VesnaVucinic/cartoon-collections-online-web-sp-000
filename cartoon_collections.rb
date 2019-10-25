@@ -24,8 +24,8 @@ long_planeteer_calls(planeteer_calls)
 
 
 snacks = ["crackers", "gouda", "thyme"]
-cheeses = ["gouda", "cheddar", "camembert"]
 def find_the_cheese(snacks)
+  
     snacks.find do |cheese|
     cheeses.include?(cheese)
   end
