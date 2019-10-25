@@ -31,7 +31,6 @@ end
 snacks = ["crackers", "gouda", "thyme"]
 def find_the_cheese(snacks)
   cheeses = ["gouda", "cheddar", "camembert"]
-
   snacks.find do |cheese|
     cheeses.include?(cheese)
   end
