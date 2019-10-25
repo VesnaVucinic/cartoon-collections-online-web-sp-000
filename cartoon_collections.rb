@@ -15,6 +15,7 @@ end
 
 summon_captain_planet(planeteer_calls)
 
+
 planeteer_calls = ["two", "go", "industrious", "bop"]
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.any? { |call| call.length > 4 }
